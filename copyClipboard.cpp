@@ -29,3 +29,4 @@ void copyToClipboard(const string text)
             CloseClipboard(); // Closes the clipboard after modifying
         }
     }
+}
