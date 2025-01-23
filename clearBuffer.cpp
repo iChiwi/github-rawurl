@@ -2,6 +2,6 @@
 
 void clearBuffer()
 {
-    cin.clear();
-    cin.ignore(maxstream, newline);
+    cin.clear();                    // clear error flags
+    cin.ignore(maxstream, newline); // clears the buffer for maxstream (refer to macros.h)
 }
