@@ -4,7 +4,7 @@ int main()
 {
     // Get the initial URL and convert it to a raw GitHub URL
     string newURL = updateURL(getURL());
-    cout << "Your raw GitHub URL was copied to clipboard." << endl;
+    cout << "The raw GitHub URL was copied to your clipboard." << endl;
     copyToClipboard(newURL);
 
     bool repeatFunc = 1; // Flag to control the loop
@@ -39,7 +39,7 @@ int main()
         }
         // Copy the new raw URL to the clipboard
         copyToClipboard(newURL);
-        cout << "Your raw GitHub URL was copied to clipboard." << endl;
+        cout << "The raw GitHub URL was copied to your clipboard." << endl;
     }
     return 0;
 }
